@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 384px;
+    width: 384px;
+    background-color: bisque;
+}
+
+.square{
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+}
