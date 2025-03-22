@@ -38,7 +38,7 @@ let gridSize = Number((gridInput * 20) + (gridInput * 4));
               flex-wrap: wrap;
               border: 2px solid bisque;`);
         body.appendChild(container);
-        createCanvas(container);
+        createCanvas();
         colorSquares();
     }
 })
