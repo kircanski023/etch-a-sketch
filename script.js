@@ -10,7 +10,7 @@ function createCanvas(){
     } 
 }
 
-createCanvas(container);
+createCanvas();
 
 function colorSquares(){
     const hoverOver = document.querySelectorAll(".square");
